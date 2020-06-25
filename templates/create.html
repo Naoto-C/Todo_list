@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="" method="POST">{% csrf_token %}
+<!-- form action はinputボタンを押した後にどこにデータを飛ばすか -->
+    {{form.as_p}}
+    <!-- 上はdjangoのタグ データを送るフォームをpタグで全部囲ってくれる感じ-->
+    <input type="submit" value="作成する">
+{% endblock content %}

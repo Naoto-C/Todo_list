@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action='' method='POST'>{% csrf_token %}
+    <input type='submit' value='削除します'>
+</form>
+<!-- ↑はurlsから受け取った値を取り出しそのままここで「削除します」 -->
+
+{% endblock content %}
