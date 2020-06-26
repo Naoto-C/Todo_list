@@ -25,7 +25,7 @@ SECRET_KEY = '2d=f6_a)rk+%vray3e+g$e92mchx+sj23txn&p41a_a+gh3wis'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["http://naoto0203.pythonanywhere.com/"]
 
 
 # Application definition
